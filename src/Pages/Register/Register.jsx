@@ -26,6 +26,7 @@ const Register = () => {
         console.error(error);
       });
   };
+  
   return (
     <>
       <div>
