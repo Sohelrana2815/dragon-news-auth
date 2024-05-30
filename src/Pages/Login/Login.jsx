@@ -29,9 +29,10 @@ const Login = () => {
       <Navbar></Navbar>
       <div>
         <h2 className="text-3xl text-center">Please Login</h2>
+        <div className="divider"></div>
         <form
           onSubmit={handleLogin}
-          className="card-body lg:w-1/2 md:w-3/4 mx-auto"
+          className="card-body lg:w-1/2 md:w-3/4 mx-auto bg-[#F3F3F3]  "
         >
           <div className="form-control">
             <label className="label">
@@ -63,7 +64,7 @@ const Login = () => {
             </label>
           </div>
           <div className="form-control mt-6">
-            <button className="btn btn-primary">Login</button>
+            <button className="btn text-white bg-[#403F3F]">Login</button>
           </div>
         </form>
         <p className="text-center ">

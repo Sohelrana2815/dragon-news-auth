@@ -26,16 +26,17 @@ const Register = () => {
         console.error(error);
       });
   };
-  
+
   return (
     <>
       <div>
         <Navbar></Navbar>
         <div>
           <h2 className="text-3xl text-center">Please Register</h2>
+          <div className="divider"></div>
           <form
             onSubmit={handleRegister}
-            className="card-body lg:w-1/2 md:w-3/4 mx-auto"
+            className="card-body lg:w-1/2 md:w-3/4 mx-auto bg-[#F3F3F3] "
           >
             <div className="form-control">
               <label className="label">
@@ -91,7 +92,7 @@ const Register = () => {
               </label>
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-info">Register</button>
+              <button className="btn text-white bg-[#403F3F] ">Register</button>
             </div>
           </form>
           <p className="text-center ">
