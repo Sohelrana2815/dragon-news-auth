@@ -7,8 +7,8 @@ import BreakingNews from "./BreakingNews/BreakingNews";
 import NewsCard from "./NewsCard/NewsCard";
 
 const Home = () => {
-  const news = useLoaderData();
-  // console.log(news);
+const news = useLoaderData();
+  console.log(news);
   return (
     <div>
       <Header></Header>
