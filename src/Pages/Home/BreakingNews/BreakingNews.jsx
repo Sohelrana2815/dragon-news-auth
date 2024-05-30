@@ -3,7 +3,9 @@ import Marquee from "react-fast-marquee";
 const BreakingNews = () => {
   return (
     <div className="flex">
-      <button className="btn btn-secondary">Breaking News</button>
+      <button className="btn btn-outline hover:bg-slate-300">
+        Breaking News
+      </button>
       <Marquee className="cursor-pointer" pauseOnHover={true} speed={100}>
         <span className="ml-12  text-gray-700">
           UN Supports Relief Efforts After Cyclone Remal:
